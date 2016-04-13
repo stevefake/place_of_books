@@ -36,4 +36,15 @@ class BooksControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+  test "can create a book" do
+    Book.create(:title => {'animal farm' => 'orwell'}) # ({ 'title' => 'animal farm'})
+    assert_equal "", Book.all
+  end
+
+  test "get list of books" do
+    skip
+    get :show
+    assert_equal "", books(:title)
+  end
+
 end

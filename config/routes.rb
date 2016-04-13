@@ -1,23 +1,38 @@
 Rails.application.routes.draw do
-  get 'books/index'
 
-  get 'books/new'
+  get 'books', controller: "books", action: "index"
 
-  get 'books/show'
+  get 'books/index' => 'books#index'
 
-  get 'books/edit'
+  get 'books' => 'books#new'
 
-  get 'books/update'
+  get 'books/:id' => 'books#show'
 
-  get 'books/create'
+  get 'books/edit' => 'books#edit'
 
-  get 'books/delete'
+  patch 'books/:id' => 'books#update'
+
+  post 'books' => 'books#create'
+
+  delete 'books/:id' => 'books#delete'
+
+  get 'reservations' => 'reservations#show'
+
+  post 'reservations' => 'reservations#new'
+
+  get 'reservations/:id' => 'reservations#show'
+
+  patch 'reservations/:id/return' => 'reservations#new'
+
+  post 'reservations/create'
+
+  delete 'reservations/delete'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'books#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
