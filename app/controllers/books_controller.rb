@@ -9,21 +9,25 @@ class BooksController < ApplicationController
   end
 
   def show
+    @book = Book.find(params[:id])
   end
 
   def edit
   end
 
   def update
-    redirect_to_action "show", id: 1
+    @book = Book.find(params[:id])
+    @book.update(params[:book].permit!)
+    redirect_to action: "show", id: @book.id
   end
 
   def create
     @book = Book.create(params[:book].permit!)
-    redirect_to_action "show", id: @book.id
+    redirect_to action: "show", id: @book.id
   end
 
   def destroy
-    redirect_to_action "index"
+    @book = Book.destroy(params[:id])
+    redirect_to action: "index"
   end
 end

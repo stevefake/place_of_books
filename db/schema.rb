@@ -15,14 +15,17 @@ ActiveRecord::Schema.define(version: 20160412213307) do
 
   create_table "books", force: :cascade do |t|
     t.string   "title"
-    t.string   "reservations"
+    t.string   "author"
     t.string   "checked_out"
     t.date     "return"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
   create_table "reservations", force: :cascade do |t|
+    t.integer  "book_id"
+    t.boolean  "reserved"
+    t.datetime "return"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -1,4 +1,4 @@
-require 'test_helper'
+require "test_helper"
 
 class BooksControllerTest < ActionController::TestCase
   test "should get index" do
@@ -12,7 +12,8 @@ class BooksControllerTest < ActionController::TestCase
   end
 
   test "should get show" do
-    get :show
+    book = Book.create(title: "Pam I Am")
+    get :show, id: book.id
     assert_response :success
   end
 
@@ -21,24 +22,24 @@ class BooksControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get update" do
-    get :update
-    assert_response :success
+  test "should patch update" do
+    book = Book.create(title: "Mam I Am")
+    patch :update, id: book.id, book: { title: "Jam I Am" }
+    assert_response :redirect
+    assert_equal "Jam I Am", Book.find(book.id).title
   end
 
-  test "should get create" do
-    get :create
-    assert_response :success
+  test "should post create" do
+    book = Book.create(title: "Sam I Am")
+    post :create, book: { title: "Sam I Am" }
+    assert_response :redirect
+    assert_equal "Sam I Am", book.title
   end
 
-  test "should get delete" do
-    get :delete
-    assert_response :success
-  end
-
-  test "can create a book" do
-    Book.create(:title => {'animal farm' => 'orwell'}) # ({ 'title' => 'animal farm'})
-    assert_equal "", Book.all
+  test "should destroy" do
+    book = Book.create(title: "Sam I Am")
+    delete :destroy, id: book.id
+    assert_response :redirect
   end
 
   test "get list of books" do
@@ -46,5 +47,4 @@ class BooksControllerTest < ActionController::TestCase
     get :show
     assert_equal "", books(:title)
   end
-
 end
