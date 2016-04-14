@@ -20789,3 +20789,472 @@ Processing by BooksController#new as HTML
   Rendered books/new.html.erb within layouts/application (12.1ms)
 Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 1.3ms)
   [1m[35m (1.5ms)[0m  rollback transaction
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:40:43 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.2ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 589ms (Views: 380.6ms | ActiveRecord: 3.9ms)
+Started GET "/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" for 127.0.0.1 at 2016-04-13 19:40:45 -0400
+Started GET "/assets/application-439e1ee5e6a6575d75c0e59ac188a31756fd530457997b37b63e7086f9458d72.js" for 127.0.0.1 at 2016-04-13 19:40:45 -0400
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:41:26 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReservation Load (0.1ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+Started GET "/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" for 127.0.0.1 at 2016-04-13 19:41:26 -0400
+Started GET "/assets/application-439e1ee5e6a6575d75c0e59ac188a31756fd530457997b37b63e7086f9458d72.js" for 127.0.0.1 at 2016-04-13 19:41:26 -0400
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:41:29 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.1ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started GET "/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" for 127.0.0.1 at 2016-04-13 19:41:29 -0400
+Started GET "/assets/application-439e1ee5e6a6575d75c0e59ac188a31756fd530457997b37b63e7086f9458d72.js" for 127.0.0.1 at 2016-04-13 19:41:29 -0400
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:41:30 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReservation Load (0.1ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+Started GET "/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" for 127.0.0.1 at 2016-04-13 19:41:30 -0400
+Started GET "/assets/application-439e1ee5e6a6575d75c0e59ac188a31756fd530457997b37b63e7086f9458d72.js" for 127.0.0.1 at 2016-04-13 19:41:30 -0400
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:41:43 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.2ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.1ms)
+Started GET "/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" for 127.0.0.1 at 2016-04-13 19:41:43 -0400
+Started GET "/assets/application-439e1ee5e6a6575d75c0e59ac188a31756fd530457997b37b63e7086f9458d72.js" for 127.0.0.1 at 2016-04-13 19:41:43 -0400
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:42:40 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReservation Load (0.2ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.2ms)
+Started GET "/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" for 127.0.0.1 at 2016-04-13 19:42:40 -0400
+Started GET "/assets/application-439e1ee5e6a6575d75c0e59ac188a31756fd530457997b37b63e7086f9458d72.js" for 127.0.0.1 at 2016-04-13 19:42:40 -0400
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:42:44 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.1ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+Started GET "/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" for 127.0.0.1 at 2016-04-13 19:42:44 -0400
+Started GET "/assets/application-439e1ee5e6a6575d75c0e59ac188a31756fd530457997b37b63e7086f9458d72.js" for 127.0.0.1 at 2016-04-13 19:42:44 -0400
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:43:15 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReservation Load (0.8ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 21ms (Views: 10.8ms | ActiveRecord: 0.8ms)
+Started GET "/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" for 127.0.0.1 at 2016-04-13 19:43:15 -0400
+Started GET "/assets/application-439e1ee5e6a6575d75c0e59ac188a31756fd530457997b37b63e7086f9458d72.js" for 127.0.0.1 at 2016-04-13 19:43:15 -0400
+Started GET "/reservations/1" for 127.0.0.1 at 2016-04-13 19:43:20 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.2ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered reservations/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+Started GET "/reservations/3" for 127.0.0.1 at 2016-04-13 19:43:25 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mReservation Load (0.1ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 3]]
+Completed 404 Not Found in 3ms (ActiveRecord: 0.1ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:43:29 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.1ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.1ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:43:50 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.3ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (19.8ms)
+Completed 500 Internal Server Error in 241ms (ActiveRecord: 3.8ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:45:55 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.3ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (18.5ms)
+Completed 500 Internal Server Error in 238ms (ActiveRecord: 3.4ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:46:27 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReservation Load (0.2ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:46:43 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.3ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (18.8ms)
+Completed 500 Internal Server Error in 220ms (ActiveRecord: 4.0ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:46:45 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReservation Load (0.1ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:49:01 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.4ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (17.4ms)
+Completed 500 Internal Server Error in 213ms (ActiveRecord: 3.3ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:50:13 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.3ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (19.1ms)
+Completed 500 Internal Server Error in 215ms (ActiveRecord: 3.3ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:50:40 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReservation Load (0.3ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.3ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:51:03 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.3ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (16.6ms)
+Completed 500 Internal Server Error in 213ms (ActiveRecord: 3.5ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:51:09 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReservation Load (0.1ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:54:18 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.3ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (17.8ms)
+Completed 500 Internal Server Error in 213ms (ActiveRecord: 4.2ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:54:23 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReservation Load (0.1ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:55:04 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.3ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.3ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:55:18 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.3ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (16.9ms)
+Completed 500 Internal Server Error in 222ms (ActiveRecord: 4.2ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:55:25 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReservation Load (0.1ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:56:28 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.3ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (19.9ms)
+Completed 500 Internal Server Error in 228ms (ActiveRecord: 3.8ms)
+Started GET "/reservations/1" for 127.0.0.1 at 2016-04-13 19:56:36 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mReservation Load (0.1ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered reservations/show.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:56:41 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.1ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms)
+Started GET "/reservations/1/return" for 127.0.0.1 at 2016-04-13 19:57:17 -0400
+Started GET "/reservations" for 127.0.0.1 at 2016-04-13 19:57:35 -0400
+Processing by ReservationsController#index as HTML
+  [1m[35mReservation Load (0.3ms)[0m  SELECT "reservations".* FROM "reservations"
+  Rendered reservations/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 362ms (Views: 360.7ms | ActiveRecord: 0.3ms)
+Started GET "/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" for 127.0.0.1 at 2016-04-13 19:57:35 -0400
+Started GET "/assets/application-439e1ee5e6a6575d75c0e59ac188a31756fd530457997b37b63e7086f9458d72.js" for 127.0.0.1 at 2016-04-13 19:57:35 -0400
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:57:39 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.1ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:58:11 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReservation Load (0.1ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.1ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:58:40 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.3ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (16.5ms)
+Completed 500 Internal Server Error in 207ms (ActiveRecord: 3.6ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:59:03 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReservation Load (0.2ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:59:13 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.2ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.2ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:59:35 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReservation Load (0.1ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 19:59:52 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.2ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.2ms)
+Started GET "/reservations/3" for 127.0.0.1 at 2016-04-13 19:59:55 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mReservation Load (0.1ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 3]]
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms)
+Started GET "/reservations/1" for 127.0.0.1 at 2016-04-13 20:00:02 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mReservation Load (0.1ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered reservations/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms)
+Started GET "/reservations/4" for 127.0.0.1 at 2016-04-13 20:00:06 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mReservation Load (0.2ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 4]]
+Completed 404 Not Found in 1ms (ActiveRecord: 0.2ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-13 20:00:11 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.1ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-14 08:19:13 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReservation Load (1.9ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (32.4ms)
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 1.9ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-14 08:34:07 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (1.5ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (172.0ms)
+Completed 500 Internal Server Error in 206ms (ActiveRecord: 1.5ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-14 08:34:07 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mReservation Load (0.1ms)[0m  SELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+Started GET "/reservations/2" for 127.0.0.1 at 2016-04-14 08:34:08 -0400
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mReservation Load (0.1ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered reservations/show.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+  [1m[36m (2.9ms)[0m  [1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "author" varchar, "checked_out" varchar, "return" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (2.0ms)[0m  CREATE TABLE "reservations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "book_id" integer, "reserved" boolean, "return" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (2.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (2.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (2.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20160412213307')[0m
+  [1m[35m (2.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20160412195540')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mFixture Delete (0.8ms)[0m  [1mDELETE FROM "books"[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "books" ("created_at", "updated_at", "id") VALUES ('2016-04-14 12:50:38', '2016-04-14 12:50:38', 980190962)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "books" ("created_at", "updated_at", "id") VALUES ('2016-04-14 12:50:38', '2016-04-14 12:50:38', 298486374)[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM "reservations"
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "reservations" ("created_at", "updated_at", "id") VALUES ('2016-04-14 12:50:38', '2016-04-14 12:50:38', 980190962)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "reservations" ("created_at", "updated_at", "id") VALUES ('2016-04-14 12:50:38', '2016-04-14 12:50:38', 298486374)
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  begin transaction
+------------------------------------------
+BooksControllerTest: test_should_get_index
+------------------------------------------
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 384ms (Views: 383.6ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+---------------------------------------------
+BooksControllerTest: test_should_patch_update
+---------------------------------------------
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Mam I Am"], ["created_at", "2016-04-14 12:50:39.048910"], ["updated_at", "2016-04-14 12:50:39.048910"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BooksController#update as HTML
+  Parameters: {"book"=>{"title"=>"Jam I Am"}, "id"=>"980190963"}
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 980190963]]
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (2.2ms)[0m  [1mUPDATE "books" SET "title" = ?, "updated_at" = ? WHERE "books"."id" = ?[0m  [["title", "Jam I Am"], ["updated_at", "2016-04-14 12:50:39.076549"], ["id", 980190963]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/books/980190963
+Completed 302 Found in 31ms (ActiveRecord: 2.6ms)
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 980190963]]
+  [1m[35m (2.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------
+BooksControllerTest: test_should_post_create
+--------------------------------------------
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Sam I Am"], ["created_at", "2016-04-14 12:50:39.089797"], ["updated_at", "2016-04-14 12:50:39.089797"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by BooksController#create as HTML
+  Parameters: {"book"=>{"title"=>"Sam I Am"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "books" ("title", "created_at", "updated_at") VALUES (?, ?, ?)  [["title", "Sam I Am"], ["created_at", "2016-04-14 12:50:39.093465"], ["updated_at", "2016-04-14 12:50:39.093465"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/books/980190964
+Completed 302 Found in 5ms (ActiveRecord: 0.7ms)
+  [1m[35m (3.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------
+BooksControllerTest: test_should_get_new
+----------------------------------------
+Processing by BooksController#new as HTML
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "books" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2016-04-14 12:50:39.108920"], ["updated_at", "2016-04-14 12:50:39.108920"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered books/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 1.2ms)
+  [1m[36m (1.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+-----------------------------------------
+BooksControllerTest: test_should_get_show
+-----------------------------------------
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "books" ("title", "created_at", "updated_at") VALUES (?, ?, ?)  [["title", "Pam I Am"], ["created_at", "2016-04-14 12:50:39.121045"], ["updated_at", "2016-04-14 12:50:39.121045"]]
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 980190963]]
+  Rendered books/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.1ms)
+  [1m[36m (1.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+-----------------------------------------
+BooksControllerTest: test_should_get_edit
+-----------------------------------------
+Processing by BooksController#edit as HTML
+  Rendered books/edit.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+----------------------------------------
+BooksControllerTest: test_should_destroy
+----------------------------------------
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "books" ("title", "created_at", "updated_at") VALUES (?, ?, ?)  [["title", "Sam I Am"], ["created_at", "2016-04-14 12:50:39.147229"], ["updated_at", "2016-04-14 12:50:39.147229"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by BooksController#destroy as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 980190963]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "books" WHERE "books"."id" = ?  [["id", 980190963]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/books
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+  [1m[35m (4.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------
+BooksControllerTest: test_get_list_of_books
+-------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------
+ReservationsControllerTest: test_should_post_create
+---------------------------------------------------
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "reservations" ("book_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["book_id", 3], ["created_at", "2016-04-14 12:50:39.214097"], ["updated_at", "2016-04-14 12:50:39.214097"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ReservationsController#create as HTML
+  Parameters: {"reservation"=>{"book_id"=>"3"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "reservations" ("book_id", "created_at", "updated_at") VALUES (?, ?, ?)  [["book_id", 3], ["created_at", "2016-04-14 12:50:39.220683"], ["updated_at", "2016-04-14 12:50:39.220683"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/reservations/980190964
+Completed 302 Found in 4ms (ActiveRecord: 0.5ms)
+  [1m[35m (2.6ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+ReservationsControllerTest: test_should_get_edit
+------------------------------------------------
+Processing by ReservationsController#edit as HTML
+  Rendered reservations/edit.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------
+ReservationsControllerTest: test_should_get_new
+-----------------------------------------------
+Processing by ReservationsController#new as HTML
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "reservations" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2016-04-14 12:50:39.248035"], ["updated_at", "2016-04-14 12:50:39.248035"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  Rendered reservations/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.7ms)
+  [1m[36m (1.4ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+-------------------------------------------------
+ReservationsControllerTest: test_should_get_index
+-------------------------------------------------
+Processing by ReservationsController#index as HTML
+  [1m[36mReservation Load (0.7ms)[0m  [1mSELECT "reservations".* FROM "reservations"[0m
+  Rendered reservations/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+ReservationsControllerTest: test_should_get_show
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "reservations" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2016-04-14 12:50:39.267945"], ["updated_at", "2016-04-14 12:50:39.267945"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ReservationsController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[36mReservation Load (0.1ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 980190963]]
+  Rendered reservations/show.html.erb within layouts/application (44.0ms)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.1ms)
+  [1m[35m (2.4ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------
+ReservationsControllerTest: test_should_patch_update
+----------------------------------------------------
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "reservations" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2016-04-14 12:50:39.325508"], ["updated_at", "2016-04-14 12:50:39.325508"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by ReservationsController#update as HTML
+  Parameters: {"reservation"=>{"return"=>"20160411"}, "id"=>"980190963"}
+  [1m[36mReservation Load (0.1ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 980190963]]
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "reservations" SET "return" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["return", "2016-04-11 00:00:00.000000"], ["updated_at", "2016-04-14 12:50:39.335468"], ["id", 980190963]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://test.host/reservations/980190963
+Completed 302 Found in 10ms (ActiveRecord: 0.6ms)
+  [1m[36mReservation Load (0.1ms)[0m  [1mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."id" = ? LIMIT 1[0m  [["id", 980190963]]
+  [1m[35m (3.5ms)[0m  rollback transaction
